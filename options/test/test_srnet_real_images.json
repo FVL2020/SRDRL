@@ -1,0 +1,31 @@
+{
+    "name": "SRDRL_x4_real_images",
+    "suffix": "_srdrl",
+    "model": "srdrl",
+    "scale": 4,
+    "gpu_ids": [ 0 ],
+    "datasets": {
+        "test_1": { // the 1st test dataset
+            "name": "real_images",
+            "mode": "LR",
+            "dataroot_LR": "./datasets/testsets/real_images"
+        }
+    },
+    "path": {
+        "root": "./",
+        "pretrain_model_G": "./experiments/pretrained_models/SRDRL_bic_blur_noise_pretrained.pth"
+    }
+  , "network_G": {
+    "which_model_G": "sr_resnet_lh" //Generator type: RRDB_net | sr_resnet | sr_resnet_lh | edsr | rcan
+    , "norm_type": null //normalization type
+    ,"act_type": "relu"
+    ,"upsample_mode": "pixelshuffle"
+    , "mode": "NAC" //Conv -> Norm -> Act or Norm -> Act --> Conv
+    , "nf": 64 //feature channels
+    , "nb_lr": 6 // lr block number
+    , "nb_hr": 10 // hr block number
+    , "in_nc": 3 //input channels
+    , "out_nc": 3 //output channels
+  }
+}
+

@@ -1,0 +1,60 @@
+{
+    "name": "Degradation_Simulator_x4_bic_blur_noise",
+    "suffix": "_degnet",
+    "model": "degnet",
+    "scale": 4,
+    "gpu_ids": [ 0 ],
+    "datasets": {
+      "test_1": {
+        "name": "Set5_bicubic",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/Set5_bicubic"
+      },
+      "test_2": {
+        "name": "Set5_bilinear",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/Set5_bilinear"
+      },
+      "test_3": {
+        "name": "Set5_nearest",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/Set5_nearest"
+      },
+      "test_4": {
+        "name": "Set14_bicubic",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/Set14_bicubic"
+      },
+      "test_5": {
+        "name": "Set14_bilinear",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/Set14_bilinear"
+      },
+      "test_6": {
+        "name": "Set14_nearest",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/Set14_nearest"
+      }
+    },
+    "path": {
+        "root": "./",
+        "pretrain_model_G": "./experiments/pretrained_models/DegNet_bic_blur_noise_pretrained.pth"
+    }, "network_G": {
+    "which_model_G": "deg_net"
+    , "output": "flr"
+    , "nf": 64 //feature channels
+    , "n_deg_lr": 6
+    , "n_deg_hr": 10
+    , "n_rec": 10
+    , "in_nc": 3 //input channels
+    , "out_nc": 3 //output channels
+    , "is_train": false
+  }
+}
+

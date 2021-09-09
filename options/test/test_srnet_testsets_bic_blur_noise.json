@@ -1,0 +1,206 @@
+{
+    "name": "SRDRL_x4_bic_blur_noise",
+    "suffix": "_srdrl",
+    "model": "srdrl",
+    "scale": 4,
+    "gpu_ids": [ 0 ],
+    "datasets": {
+        "test_1_01": {
+            "name": "Set5_bicubic_0.2_0",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_0.2_0"
+        },
+        "test_1_02": {
+            "name": "Set5_bicubic_1.3_0",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_1.3_0"
+        },
+        "test_1_03": {
+            "name": "Set5_bicubic_2.6_0",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_2.6_0"
+        },
+        "test_1_04": {
+            "name": "Set5_bicubic_0.2_5",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_0.2_5"
+        },
+        "test_1_05": {
+            "name": "Set5_bicubic_1.3_5",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_1.3_5"
+        },
+        "test_1_06": {
+            "name": "Set5_bicubic_2.6_5",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_2.6_5"
+        },
+        "test_1_07": {
+            "name": "Set5_bicubic_0.2_15",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_0.2_15"
+        },
+        "test_1_08": {
+            "name": "Set5_bicubic_1.3_15",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_1.3_15"
+        },
+        "test_1_09": {
+            "name": "Set5_bicubic_2.6_15",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_2.6_15"
+        },
+        "test_1_10": {
+            "name": "Set5_bicubic_0.2_25",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_0.2_25"
+        },
+        "test_1_11": {
+            "name": "Set5_bicubic_1.3_25",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_1.3_25"
+        },
+        "test_1_12": {
+            "name": "Set5_bicubic_2.6_25",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_2.6_25"
+        },
+        "test_1_13": {
+            "name": "Set5_bicubic_0.2_50",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_0.2_50"
+        },
+        "test_1_14": {
+            "name": "Set5_bicubic_1.3_50",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_1.3_50"
+        },
+        "test_1_15": {
+            "name": "Set5_bicubic_2.6_50",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bdn/Set5_bicubic_2.6_50"
+        },
+        "test_2_01": {
+            "name": "Set14_bicubic_0.2_0",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_0.2_0"
+        },
+        "test_2_02": {
+            "name": "Set14_bicubic_1.3_0",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_1.3_0"
+        },
+        "test_2_03": {
+            "name": "Set14_bicubic_2.6_0",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_2.6_0"
+        },
+        "test_2_04": {
+            "name": "Set14_bicubic_0.2_5",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_0.2_5"
+        },
+        "test_2_05": {
+            "name": "Set14_bicubic_1.3_5",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_1.3_5"
+        },
+        "test_2_06": {
+            "name": "Set14_bicubic_2.6_5",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_2.6_5"
+        },
+        "test_2_07": {
+            "name": "Set14_bicubic_0.2_15",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_0.2_15"
+        },
+        "test_2_08": {
+            "name": "Set14_bicubic_1.3_15",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_1.3_15"
+        },
+        "test_2_09": {
+            "name": "Set14_bicubic_2.6_15",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_2.6_15"
+        },
+        "test_2_10": {
+            "name": "Set14_bicubic_0.2_25",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_0.2_25"
+        },
+        "test_2_11": {
+            "name": "Set14_bicubic_1.3_25",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_1.3_25"
+        },
+        "test_2_12": {
+            "name": "Set14_bicubic_2.6_25",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_2.6_25"
+        },
+        "test_2_13": {
+            "name": "Set14_bicubic_0.2_50",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_0.2_50"
+        },
+        "test_2_14": {
+            "name": "Set14_bicubic_1.3_50",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_1.3_50"
+        },
+        "test_2_15": {
+            "name": "Set14_bicubic_2.6_50",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bdn/Set14_bicubic_2.6_50"
+        }
+    },
+    "path": {
+        "root": "./",
+        "pretrain_model_G": "./experiments/pretrained_models/SRDRL_bic_blur_noise_pretrained.pth"
+    }
+  , "network_G": {
+    "which_model_G": "sr_resnet_lh" //Generator type: RRDB_net | sr_resnet | sr_resnet_lh | edsr | rcan
+    , "norm_type": null //normalization type
+    ,"act_type": "relu"
+    ,"upsample_mode": "pixelshuffle"
+    , "mode": "NAC" //Conv -> Norm -> Act or Norm -> Act --> Conv
+    , "nf": 64 //feature channels
+    , "nb_lr": 6 // lr block number
+    , "nb_hr": 10 // hr block number
+    , "in_nc": 3 //input channels
+    , "out_nc": 3 //output channels
+  }
+}
+

@@ -1,0 +1,134 @@
+{
+    "name": "SRDRL_x4_bic_nea_blur",
+    "suffix": "_srdrl",
+    "model": "srdrl",
+    "scale": 4,
+    "gpu_ids": [ 0 ],
+    "datasets": {
+        "test_1_01": {
+            "name": "Set5_bicubic_0.2",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bic_nea_blur/Set5_bicubic_0.2"
+        },
+        "test_1_02": {
+            "name": "Set5_bicubic_1.3",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bic_nea_blur/Set5_bicubic_1.3"
+        },
+        "test_1_03": {
+            "name": "Set5_bicubic_2.6",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bic_nea_blur/Set5_bicubic_2.6"
+        },
+        "test_1_04": {
+            "name": "Set5_nearest_0.2",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsetsp/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bic_nea_blur/Set5_nearest_0.2"
+        },
+        "test_1_05": {
+            "name": "Set5_nearest_1.3",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bic_nea_blur/Set5_nearest_1.3"
+        },
+        "test_1_06": {
+            "name": "Set5_nearest_2.6",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set5/Set5_HR",
+            "dataroot_LR": "./datasets/testsets/Set5/bic_nea_blur/Set5_nearest_2.6"
+        },
+        "test_2_01": {
+            "name": "Set14_bicubic_0.2",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bic_nea_blur/Set14_bicubic_0.2"
+        },
+        "test_2_02": {
+            "name": "Set14_bicubic_1.3",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bic_nea_blur/Set14_bicubic_1.3"
+        },
+        "test_2_03": {
+            "name": "Set14_bicubic_2.6",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bic_nea_blur/Set14_bicubic_2.6"
+        },
+        "test_2_04": {
+            "name": "Set14_nearest_0.2",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bic_nea_blur/Set14_nearest_0.2"
+        },
+        "test_2_05": {
+            "name": "Set14_nearest_1.3",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bic_nea_blur/Set14_nearest_1.3"
+        },
+        "test_2_06": {
+            "name": "Set14_nearest_2.6",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/Set14/Set14_HR",
+            "dataroot_LR": "./datasets/testsets/Set14/bic_nea_blur/Set14_nearest_2.6"
+        },
+        "test_3_01": {
+            "name": "BSDS100_bicubic_0.2",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/BSDS100/BSDS100_HR",
+            "dataroot_LR": "./datasets/testsets/BSDS100/bic_nea_blur/BSDS100_bicubic_0.2"
+        },
+        "test_3_02": {
+            "name": "BSDS100_bicubic_1.3",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/BSDS100/BSDS100_HR",
+            "dataroot_LR": "./datasets/testsets/BSDS100/bic_nea_blur/BSDS100_bicubic_1.3"
+        },
+        "test_3_03": {
+            "name": "BSDS100_bicubic_2.6",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/BSDS100/BSDS100_HR",
+            "dataroot_LR": "./datasets/testsets/BSDS100/bic_nea_blur/BSDS100_bicubic_2.6"
+        },
+        "test_3_04": {
+            "name": "BSDS100_nearest_0.2",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/BSDS100/BSDS100_HR",
+            "dataroot_LR": "./datasets/testsets/BSDS100/bic_nea_blur/BSDS100_nearest_0.2"
+        },
+        "test_3_05": {
+            "name": "BSDS100_nearest_1.3",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/BSDS100/BSDS100_HR",
+            "dataroot_LR": "./datasets/testsets/BSDS100/bic_nea_blur/BSDS100_nearest_1.3"
+        },
+        "test_3_06": {
+            "name": "BSDS100_nearest_2.6",
+            "mode": "LRHR",
+            "dataroot_HR": "./datasets/testsets/BSDS100/BSDS100_HR",
+            "dataroot_LR": "./datasets/testsets/BSDS100/bic_nea_blur/BSDS100_nearest_2.6"
+        }
+    },
+    "path": {
+        "root": "./",
+        "pretrain_model_G": "./experiments/pretrained_models/SRDRL_bic_nea_blur_pretrained.pth"
+    }
+  , "network_G": {
+    "which_model_G": "sr_resnet_lh" //Generator type: RRDB_net | sr_resnet | sr_resnet_lh | edsr | rcan
+    , "norm_type": null //normalization type
+    ,"act_type": "relu"
+    ,"upsample_mode": "pixelshuffle"
+    , "mode": "NAC" //Conv -> Norm -> Act or Norm -> Act --> Conv
+    , "nf": 64 //feature channels
+    , "nb_lr": 6 // lr block number
+    , "nb_hr": 10 // hr block number
+    , "in_nc": 3 //input channels
+    , "out_nc": 3 //output channels
+  }
+}
+
