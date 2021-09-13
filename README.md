@@ -54,7 +54,7 @@ Once the dataset preparation is finished, you can train the degradation simulato
 python train_degnet.py
 ```
 
-Put the degradation simulator model in ./experiments/pretrained_models folder. TNow you can use the degradation reconstruction loss to train the SR network, run:
+Put the degradation simulator model in ./experiments/pretrained_models folder. Now you can use the degradation reconstruction loss to train the SR network, run:
 ```
 python train.py
 ```
