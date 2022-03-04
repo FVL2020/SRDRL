@@ -36,7 +36,7 @@
   }
 
   , "network_R": {
-    "which_model_G": "deg_net"
+    "which_model_R": "deg_net"
     , "output": "flr"
     , "nf": 64 //feature channels
     , "n_deg_lr": 6
@@ -44,7 +44,7 @@
     , "n_rec": 10
     , "in_nc": 3 //input channels
     , "out_nc": 3 //output channels
-    , "is_train": true
+    , "is_train": false
   }
 
   , "network_G": {
