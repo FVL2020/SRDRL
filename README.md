@@ -60,3 +60,6 @@ python train.py
 ```
 
 The training results will be in the ./experiments folder.
+
+### License
+This repository is released under the MIT License as found in the LICENSE file. Code in this repo is for non-commercial use only.
